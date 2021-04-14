@@ -37,9 +37,12 @@ int main()
                         label = 1;
                         break;
                     }
-                    printf("*");
-                    pswd[q] = c;
-                    q++;
+                    if (c != 8 || q != 0)
+                    {
+                        printf("*"); 
+                        pswd[q] = c;
+                        q++;
+                    }
                 }
                 else
                 {
