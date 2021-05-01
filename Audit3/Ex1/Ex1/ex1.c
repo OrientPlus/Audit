@@ -36,8 +36,8 @@ int main()
     {
         if (mass[i] != mass[i + 1])
         {
-            input = mass[i] * mass[i];
-            printf("  UNIQ ELEMENT = %d \n", input);
+            //input = mass[i] * mass[i];
+            printf("  UNIQ ELEMENT = %d \n", mass[i]);
         }
     }
     free(mass);
