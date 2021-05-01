@@ -5,10 +5,11 @@ int main()
 	char smb = 0;
 	int tmp = 0, point = 0, n = 0;
 	int mass[200];
+	printf("Press Enter to exit\n");
 	while (smb != '\n')
 	{
 		smb = fgetc(stdin);
-		if ((smb >= '0') && (smb <= '9'))
+		if ((smb >= '0') & (smb <= '9'))
 		{
 			tmp = tmp * 10 + (smb - '0');
 			point = 1;
@@ -23,11 +24,6 @@ int main()
 				tmp = 0;
 			}
 		}
-	}
-	if (point == 1)
-	{
-		mass[n] = tmp;
-		n++;
 	}
 	for (int i = 0; i < n; i++) 
 	{

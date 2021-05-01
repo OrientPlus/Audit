@@ -1,1 +1,3 @@
-﻿  A2.c.vcxproj -> C:\Users\Roman\Desktop\Github\Audit\Audit2\A2.c\Debug\A2.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (A2.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  ex1.c
+  A2.c.vcxproj -> C:\Users\Roman\Desktop\Github\Audit\Audit2\A2.c\Debug\Ex1.exe

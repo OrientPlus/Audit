@@ -11,7 +11,7 @@ int main()
 {
 	int n, max=0, maxj=0, a=0;
 	int* length;
-	char tab=0;
+	char tab;
 	FILE* in;
 	fopen_s(&in, "input.txt", "r");
 	fscanf_s(in, "%d", &n);
