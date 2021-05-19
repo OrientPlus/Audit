@@ -1,0 +1,3 @@
+﻿  ex1.c
+C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(66,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(56): error C4700: использована неинициализированная локальная переменная "ptr"
