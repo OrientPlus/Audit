@@ -1,3 +1,5 @@
 ﻿  ex1.c
-C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(66,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(56): error C4700: использована неинициализированная локальная переменная "ptr"
+C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(23,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(104,11): warning C4477: "scanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "char *"
+C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Audit4\ex1.c(104,11): message : рекомендуется использовать "%hhd" в строке форматирования
+  Audit4.vcxproj -> C:\Users\Roman\Desktop\Github\Audit\Audit4\Audit4\Debug\Audit4.exe
