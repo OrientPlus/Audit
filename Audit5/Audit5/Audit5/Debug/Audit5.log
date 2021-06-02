@@ -1,0 +1,3 @@
+﻿  1.c
+C:\Users\Roman\Desktop\Auditornye-master\Auditornye-master\A125\A125\1.c(24,18): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Audit5.vcxproj -> C:\Users\Roman\Desktop\Github\Audit\Audit5\Audit5\Debug\Audit5.exe
