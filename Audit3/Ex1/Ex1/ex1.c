@@ -32,11 +32,10 @@ int main()
         printf("  %d ", mass[i]);
     }
     printf("\n");
-    for (int i = 0; i < n; i++) //Вывод уникальных элементов в квадрате
+    for (int i = 0; i < n; i++) //Вывод уникальных элементов
     {
         if (mass[i] != mass[i + 1])
         {
-            //input = mass[i] * mass[i];
             printf("  UNIQ ELEMENT = %d \n", mass[i]);
         }
     }
